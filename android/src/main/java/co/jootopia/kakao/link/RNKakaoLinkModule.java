@@ -443,11 +443,5 @@ public class RNKakaoLinkModule extends ReactContextBaseJavaModule {
     public HashMap<String, Object> toHashMap() {
       return map.toHashMap();
     }
-
-    @Nonnull
-    @Override
-    public Iterator<Map.Entry<String, Object>> getEntryIterator() {
-      return null;
-    }
   }
 }
